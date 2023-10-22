@@ -24,6 +24,12 @@ export default function HeaderMain(){
                 </div>
             </div>
 
+            <div className='p-3 left-20 border-solid bg-black-300 rounded-full'>
+                <div className='font-serif text-black'>
+                    <a>Profile</a>
+                </div>
+            </div>
+
             
             <div className=''>
                 <ConnectButton />
