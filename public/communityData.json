@@ -1,0 +1,14 @@
+[
+    {
+      "name": "Community 1",
+      "ownerHash": "0x1234567890abcdef",
+      "imageURL": "community1.jpg"
+    },
+    {
+      "name": "Community 2",
+      "ownerHash": "0x9876543210fedcba",
+      "imageURL": "community2.jpg"
+    }
+
+  ]
+  

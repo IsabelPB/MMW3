@@ -36,10 +36,14 @@ const wagmiConfig = createConfig({
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <WagmiConfig config={wagmiConfig}>
+    <div className={"bg-red-50"}>
+      <WagmiConfig config={wagmiConfig} >
       <RainbowKitProvider chains={chains}>
         <Component {...pageProps} />
       </RainbowKitProvider>
     </WagmiConfig>
+
+    </div>
+    
   )
 }
